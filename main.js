@@ -55,7 +55,7 @@ function updateCanvas(){
 }
 
 function setup(){
-    canvas = createCanvas(300, 300);
+    canvas = createCanvas(280, 280);
     canvas.center();
     background("white");
     canvas.mouseReleased(classifyCanvas);
